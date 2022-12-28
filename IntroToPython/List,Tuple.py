@@ -1,0 +1,17 @@
+if __name__ == '__main__':
+    # list is mutable whilst tuple is immutable
+
+    lst = ["5", 6, True, "False"]
+    print(lst[0])
+
+    tpl = ("5", 6, True)
+    print(tpl[0])
+
+    for element in lst:
+        print(element, end=" ")
+
+    print("")
+    print(tpl[1:])  # like we studied from strings, here we can print from certain point to end by doing this
+
+    # list methods #
+    print(dir(lst))
