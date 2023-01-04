@@ -1,4 +1,4 @@
-package Threads_Java;
+package Java.Threads_Java;
 
 public class CarRunnable implements Runnable{
     private int x = 0;

@@ -1,6 +1,4 @@
-package Threads_Java;
-
-import java.util.*;
+package Java.Threads_Java;
 
 /**
  * This is an example for typical producer - consumer.

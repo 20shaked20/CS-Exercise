@@ -1,4 +1,4 @@
-package Threads_Java;
+package Java.Threads_Java;
 
 /**
  * By Extending Thread Class:

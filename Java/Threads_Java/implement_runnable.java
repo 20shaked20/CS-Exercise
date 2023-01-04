@@ -1,7 +1,4 @@
-package Threads_Java;
-
-import java.io.*;
-import java.util.*;
+package Java.Threads_Java;
 
 
 /**

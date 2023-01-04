@@ -1,4 +1,4 @@
-package Threads_Java;
+package Java.Threads_Java;
 
 public class CarMain {
     public static final int screenSize = 60;
