@@ -26,8 +26,14 @@ class Magics:
         return f'The String is: {self.string}\n' \
                f'The number is: {self.num}'
 
+    def add(self, other: str):
+        self.string += other
+
+    def add_return(self, other: str) -> str:
+        return self.string + other
+
     # add -> combines on or more
-    def __add__(self, other: str) -> str:
+    def __add__(self, other: str) -> str:  # +++++++++
         return self.string + other
 
     # ge -> greater equal >=
@@ -43,6 +49,7 @@ if __name__ == '__main__':
 
     # concatenate String object and a string
     print(m_m1 + " You, " + "How are you doing?")
+    print(m_m1.add_return(" You") + m_m1.add_return(" How are you doing?"))
 
     # here it prints only the object type and not the __str__//__repr__ why?, because it recognizes as the normal object
     # it will invoke either repr or str, according to its placement ( the last one read ).

@@ -7,8 +7,9 @@ if __name__ == '__main__':
         x += 1
 
     for i in [0, 1, 2]:
-        print(i * i, end=" ")  # print in the same line! nice to know 
+        print(i * i, end=" ")  # print in the same line! nice to know
 
     print(" ")
-    for i in range(0, 5):
+    for i in range(0, 5, 2):
         print(i, end=" ")
+
