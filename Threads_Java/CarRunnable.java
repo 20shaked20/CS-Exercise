@@ -6,7 +6,7 @@ public class CarRunnable implements Runnable{
     public CarRunnable(int speed){
         this.speed = speed;
     }
-    public int getX() {
+    public  int getX() {
         return x;
     }
 
